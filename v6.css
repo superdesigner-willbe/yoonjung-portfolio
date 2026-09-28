@@ -27,39 +27,3 @@
 }
 .waymo-reflection{display:flex;flex-direction:column;gap:40px;width:100%}.waymo-reflection h2{font-size:36px;line-height:1.2;font-weight:500;margin-top:10px}.reflection-row{display:grid;grid-template-columns:250px 1fr;gap:30px}.reflection-title{display:flex;align-items:flex-start;gap:20px}.reflection-title img{flex:none}.reflection-title h3{font-size:18px;line-height:1.4;font-weight:600}.reflection-row>p{font-size:16px;line-height:1.6;font-weight:500}
 @media(max-width:700px){.reflection-row{grid-template-columns:1fr;gap:18px}.waymo-reflection h2{font-size:28px}}
-/* Bollo 5 Whys */
-[data-node-id="354:3534"],
-[data-node-id="354:3536"],
-[data-node-id="354:3539"] {
-  width: 100% !important;
-  max-width: none !important;
-  box-sizing: border-box;
-}
-
-[data-node-id="354:3534"] {
-  align-items: stretch !important;
-}
-
-/* Fill everything inside the outer card */
-[data-node-id="354:3539"] > * {
-  width: 100% !important;
-  align-self: stretch !important;
-  box-sizing: border-box;
-}
-
-[data-node-id="354:3543"] > [data-node-id="354:3544"],
-[data-node-id="354:3543"] > [data-node-id="354:3553"] {
-  width: 100% !important;
-  align-self: stretch !important;
-  box-sizing: border-box;
-}
-
-/* Let text use the wider boxes */
-[data-node-id="354:3542"],
-[data-node-id="354:3546"],
-[data-node-id="354:3548"],
-[data-node-id="354:3555"],
-[data-node-id="354:3557"] {
-  width: 100% !important;
-  max-width: none !important;
-}
