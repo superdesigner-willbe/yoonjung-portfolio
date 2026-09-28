@@ -27,7 +27,7 @@ jobs:
       - name: Prepare website paths
         run: node scripts/prepare-pages.mjs
         env:
-          BASE_PATH: ${{ steps.pages.outputs.base_path }}
+          BASE_PATH: ""
       - uses: actions/upload-pages-artifact@v3
         with:
           path: _site
