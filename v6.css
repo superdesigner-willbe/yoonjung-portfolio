@@ -27,3 +27,22 @@
 }
 .waymo-reflection{display:flex;flex-direction:column;gap:40px;width:100%}.waymo-reflection h2{font-size:36px;line-height:1.2;font-weight:500;margin-top:10px}.reflection-row{display:grid;grid-template-columns:250px 1fr;gap:30px}.reflection-title{display:flex;align-items:flex-start;gap:20px}.reflection-title img{flex:none}.reflection-title h3{font-size:18px;line-height:1.4;font-weight:600}.reflection-row>p{font-size:16px;line-height:1.6;font-weight:500}
 @media(max-width:700px){.reflection-row{grid-template-columns:1fr;gap:18px}.waymo-reflection h2{font-size:28px}}
+
+/* Fill the research card across its available width at every viewport size. */
+.bollo-whys-card{align-items:stretch;background:#fafafa;width:296px;max-width:100%}
+.bollo-whys-card>.f290,.bollo-whys-card>.f78,
+.bollo-whys-card .f292,.bollo-whys-card .f297{width:100%;min-width:0}
+.bollo-whys-card .f290>.f78,.bollo-whys-card .f292>.f78,
+.bollo-whys-card .f297>.f78{width:100%;min-width:0}
+.bollo-whys-card .f291,.bollo-whys-card .f293,.bollo-whys-card .f294{width:100%;max-width:none}
+
+#bollo-research .bollo-research-photos{display:grid;grid-template-columns:560fr 320fr;gap:20px;width:100%}
+.bollo-research-photos .research-photo{position:relative;overflow:hidden;border-radius:10px;min-width:0}
+.research-photo-wide{aspect-ratio:560/333}
+.research-photo-wide img{position:absolute;width:100.06%;height:126.21%;top:-13.07%;left:0;max-width:none}
+.research-photo-tall img{position:absolute;width:99.89%;height:127.99%;top:-16.91%;left:.11%;max-width:none}
+.bollo-project-goal{width:100%;aspect-ratio:900/330;position:relative;overflow:hidden}
+.bollo-project-goal>img{position:absolute;top:-.15%;left:0;width:100%;height:113.03%;max-width:none}
+.project-video video.bollo-rounded-video{border-radius:20px}
+.project-video:has(video.bollo-rounded-video){border-radius:20px;overflow:hidden}
+@media(max-width:700px){#bollo-research .bollo-research-photos{gap:12px}}
