@@ -1,0 +1,29 @@
+/* The introduction fills the opening screen, growing naturally on short screens. */
+.home-v2 [data-node-id="421:7487"]{min-height:100svh;gap:0;isolation:isolate}
+.home-v2 [data-node-id="354:3292"]{flex:1 0 auto;padding:clamp(150px,24svh,360px) 8.333% 40px;align-items:flex-end}
+.home-v2 [data-node-id="354:3295"]{font-size:50px;letter-spacing:1px;white-space:normal}
+.home-v2 [data-node-id="421:7577"],.home-v2 [data-node-id="421:7584"]{font-size:24px;line-height:1.25;white-space:normal}
+.home-v2 [data-node-id="421:7584"] p{white-space:normal}
+.home-v2 [data-node-id="354:3294"]{gap:30px}
+.home-v2 [data-node-id="354:3297"] p{font-size:18px}
+.home-v2 [data-node-id="421:7462"]{left:54%;top:90px;transform:scale(.65);transform-origin:top left;z-index:-1}
+.home-v2 .ux-award-badge{width:62px;height:63px;border-radius:5px;flex:none;overflow:hidden}
+.home-v2 .ux-award-badge img{width:100%;height:100%;object-fit:cover}
+.bollo-flow.exact-canvas{width:900px!important}
+.bollo-flow .f238{flex:1 0 0!important;min-width:1px!important;height:0!important}
+.bollo-flow .f239 img{width:73.8333px;height:11.0459px}
+@media(max-width:700px){
+ .home-v2 [data-node-id="354:3292"]{padding:150px 24px 32px}
+ .home-v2 [data-node-id="354:3295"]{font-size:34px;letter-spacing:.5px}
+ .home-v2 [data-node-id="421:7577"],.home-v2 [data-node-id="421:7584"]{font-size:18px}
+ .home-v2 [data-node-id="354:3294"]{gap:20px}
+ .home-v2 [data-node-id="354:3293"]{gap:24px}
+ .home-v2 [data-node-id="354:3297"]{gap:8px}
+ .home-v2 [data-node-id="354:3299"]{flex-direction:row;flex-wrap:wrap;gap:8px 16px}
+ .home-v2 [data-node-id="354:3297"] p{font-size:14px}
+ .home-v2 [data-node-id="421:7462"]{left:47%;top:65px;transform:scale(.3)}
+ .case-content .bollo-flow .layout-row{flex-direction:row!important;flex-wrap:nowrap!important;align-items:center!important}
+ .case-content .bollo-flow div{max-width:none!important}
+}
+.waymo-reflection{display:flex;flex-direction:column;gap:40px;width:100%}.waymo-reflection h2{font-size:36px;line-height:1.2;font-weight:500;margin-top:10px}.reflection-row{display:grid;grid-template-columns:250px 1fr;gap:30px}.reflection-title{display:flex;align-items:flex-start;gap:20px}.reflection-title img{flex:none}.reflection-title h3{font-size:18px;line-height:1.4;font-weight:600}.reflection-row>p{font-size:16px;line-height:1.6;font-weight:500}
+@media(max-width:700px){.reflection-row{grid-template-columns:1fr;gap:18px}.waymo-reflection h2{font-size:28px}}

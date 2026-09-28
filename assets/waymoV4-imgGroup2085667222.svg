@@ -1,0 +1,18 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="11.3207" height="427.1" viewBox="0 0 11.3207 427.1" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Group 2085667222">
+<rect id="Rectangle 3472281" width="420.411" height="1.02914" transform="matrix(-4.37114e-08 -1 -1 4.37114e-08 6.17555 426.071)" fill="url(#paint0_linear_0_245)"/>
+<circle id="Ellipse 286" cx="5.66037" cy="5.66037" r="5.14579" fill="white" stroke="#17FFA9" stroke-width="1.02916"/>
+<circle id="Ellipse 285" cx="5.66097" cy="5.65996" r="2.57289" fill="#17FFA9"/>
+<circle id="Ellipse 291" cx="5.66097" cy="113.207" r="2.57289" fill="#01D0B0"/>
+<circle id="Ellipse 288" cx="5.65976" cy="215.094" r="5.14579" fill="white"/>
+<circle id="Ellipse 289" cx="5.65976" cy="421.954" r="5.14579" fill="white"/>
+<circle id="Ellipse 287" cx="5.66097" cy="215.094" r="2.57289" fill="#01B5C9"/>
+<circle id="Ellipse 290" cx="5.66097" cy="421.955" r="2.57289" fill="#0094FF"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_0_245" x1="0" y1="0.51457" x2="420.411" y2="0.51457" gradientUnits="userSpaceOnUse">
+<stop stop-color="#0079FF"/>
+<stop offset="1" stop-color="#00EC96"/>
+</linearGradient>
+</defs>
+</svg>

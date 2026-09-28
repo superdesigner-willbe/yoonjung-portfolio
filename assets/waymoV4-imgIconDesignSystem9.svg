@@ -1,0 +1,14 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="40.1346" height="40.1346" viewBox="0 0 40.1346 40.1346" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="ICON DESIGN SYSTEM">
+<circle id="Ellipse 26" cx="20.0673" cy="20.0673" r="19.5779" fill="#23233E" stroke="#9AA3D4" stroke-width="0.978893"/>
+<path id="Vector 10" opacity="0.5" d="M27.2026 16.1258L27.2026 16.6741C27.2026 18.5663 25.6687 20.1002 23.7765 20.1002L16.2215 20.1002C14.3293 20.1002 12.7953 21.6342 12.7953 23.5264L12.7953 24.3585" stroke="url(#paint0_linear_0_156)" stroke-width="2.20251" stroke-linecap="round" stroke-linejoin="round"/>
+<circle id="Ellipse 34" cx="12.6973" cy="27.8684" r="2.62293" transform="rotate(-7.4872 12.6973 27.8684)" fill="#0094FF" stroke="#0094FF" stroke-width="1.95779"/>
+<circle id="Ellipse 38" cx="27.3001" cy="12.6154" r="3.60183" fill="#17FFA9"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_0_156" x1="13.0573" y1="24.0747" x2="27.6624" y2="17.0868" gradientUnits="userSpaceOnUse">
+<stop stop-color="#0094FF"/>
+<stop offset="1" stop-color="#17FFA9"/>
+</linearGradient>
+</defs>
+</svg>

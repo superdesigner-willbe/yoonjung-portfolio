@@ -1,0 +1,13 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="59.4783" height="59.4783" viewBox="0 0 59.4783 59.4783" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="ICON DESIGN SYSTEM">
+<circle id="Ellipse 20" cx="29.7391" cy="29.7391" r="29.0138" fill="#23233E" stroke="#9AA3D4" stroke-width="1.45069"/>
+<path id="Ellipse 31" d="M10.2094 11.2189C15.8445 6.88332 22.762 4.54608 29.8719 4.57553C36.9818 4.60498 43.8797 6.99946 49.4786 11.3816L29.7392 36.602L10.2094 11.2189Z" fill="url(#paint0_radial_0_14)"/>
+<circle id="Ellipse 29" cx="29.7391" cy="33.5518" r="9.1505" fill="#0094FF"/>
+</g>
+<defs>
+<radialGradient id="paint0_radial_0_14" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(29.7392 36.602) rotate(90) scale(32.0268 32.0268)">
+<stop offset="0.427083" stop-color="#03FFB6"/>
+<stop offset="1" stop-color="#03FFB6" stop-opacity="0"/>
+</radialGradient>
+</defs>
+</svg>

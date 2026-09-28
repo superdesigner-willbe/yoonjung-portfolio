@@ -1,0 +1,23 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="40.6297" height="40.6298" viewBox="0 0 40.6297 40.6298" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="ICON DESIGN SYSTEM" filter="url(#filter0_d_0_22)">
+<circle id="Ellipse 41" cx="20.3149" cy="19.4684" r="16.9291" fill="white" fill-opacity="0.4" stroke="white" stroke-width="0.846453"/>
+<path id="Ellipse 31" d="M8.91958 8.66219C12.2075 6.13244 16.2438 4.76869 20.3923 4.78588C24.5408 4.80306 28.5656 6.2002 31.8325 8.75711L20.3149 23.4728L8.91958 8.66219Z" fill="url(#paint0_radial_0_22)"/>
+<circle id="Ellipse 29" cx="20.3149" cy="21.6931" r="5.33917" fill="#0079FF"/>
+</g>
+<defs>
+<filter id="filter0_d_0_22" x="0" y="-5.96046e-08" width="40.6298" height="40.6298" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="0.846453"/>
+<feGaussianBlur stdDeviation="1.48129"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.309804 0 0 0 0 0.309804 0 0 0 0 0.309804 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_0_22"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_0_22" result="shape"/>
+</filter>
+<radialGradient id="paint0_radial_0_22" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(20.3149 23.4728) rotate(90) scale(18.6871)">
+<stop offset="0.427083" stop-color="#00EC96"/>
+<stop offset="1" stop-color="#00EC96" stop-opacity="0"/>
+</radialGradient>
+</defs>
+</svg>
