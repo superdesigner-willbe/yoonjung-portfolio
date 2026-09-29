@@ -1,0 +1,29 @@
+/* September 28: Blloom and Waymo annotation updates. */
+.page-blloom .blloom-comfort-section{padding-bottom:0}
+.page-blloom .blloom-comfort-title{font-size:36px;line-height:1.2}
+.page-blloom .blloom-comfort-column{gap:20px}
+.page-blloom .blloom-comfort-column h3{font-size:24px;line-height:1.6}
+.page-blloom .blloom-comfort-column p{font-size:16px;line-height:1.6;color:#5a5a5a}
+.page-blloom .blloom-comfort-image+.blloom-comfort-image{margin-top:20px}
+.page-blloom .decisions-v3.f1288{width:900px!important;height:348px!important}
+.page-blloom [data-node-id="354:4400"]>.exact-viewport{aspect-ratio:900/348}
+#waymo-insights .pilot-test-canvas>.f252{display:flex!important;flex-direction:row!important;gap:25px!important;width:900px!important}
+#waymo-insights .pilot-test-canvas .f733{width:400px;min-width:400px}
+#waymo-insights .pilot-test-canvas .f760{display:flex!important;flex-direction:row!important;gap:10px!important}
+#waymo-insights .pilot-test-canvas .f783{white-space:normal;width:328.456px}
+#waymo-problems2{gap:40px}
+#waymo-insights h2{white-space:normal}
+.waymo-final-v7{display:flex;flex-direction:column;gap:46px}
+.waymo-comparison{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:46px;width:100%}
+.waymo-comparison-column{display:flex;flex-direction:column;gap:20px;min-width:0}
+.comparison-label{padding:4px 20px;border:1px solid #000;border-radius:100px;font-size:20px;line-height:1.4;align-self:flex-start}
+.comparison-label.as-is{background:#0094ff}.comparison-label.to-be{background:#00ec96}
+.comparison-copy{display:flex;flex-direction:column;gap:10px;color:#191f28}
+.comparison-copy h3{font-size:24px;line-height:1.4;font-weight:600}
+.comparison-copy p{font-size:18px;line-height:1.4;font-weight:500}
+.comparison-before-image{position:relative;width:100%;aspect-ratio:427/235.795;border-radius:3.482px;overflow:hidden}
+.comparison-before-image img{position:absolute;height:100%;width:102.44%;left:-1.41%;top:0;max-width:none}
+.comparison-after-image{width:100%;height:auto;aspect-ratio:1806/977}
+@media(max-width:700px){.waymo-comparison,.page-blloom .blloom-comfort-grid{grid-template-columns:1fr;gap:40px}.page-blloom .blloom-comfort-title{font-size:28px}.waymo-final-v7{gap:32px}}
+@media(min-width:701px){.page-blloom .blloom-comfort-grid{grid-template-rows:auto auto auto auto;row-gap:20px}.page-blloom .blloom-comfort-column{display:grid;grid-template-rows:subgrid;grid-row:span 4}}
+#waymo-insights .pilot-test-canvas>.f252{gap:22px!important}
