@@ -67,3 +67,75 @@ ol{margin:0;padding:0}
 #film-dialog .exploration-gallery img{display:block;flex:0 0 172px;width:172px;height:306px;object-fit:cover;border-radius:10px;scroll-snap-align:start}
 .exploration-gallery:focus-visible{outline:2px solid #797979;outline-offset:4px}
 @media(max-width:700px){#film-dialog.exploration-dialog{padding:28px 20px;max-width:calc(100vw - 24px)}#film-dialog.exploration-dialog h2{font-size:36px;letter-spacing:-.9px}.exploration-intro{font-size:18px}#film-dialog.exploration-dialog .dialog-close{right:16px;top:18px}#film-dialog.exploration-dialog .dialog-media{padding:20px 0;margin-bottom:28px}}
+/* Blloom - Comfort & Portability */
+
+.blloom-comfort-section {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding-bottom: 100px;
+  box-sizing: border-box;
+}
+
+.blloom-comfort-title {
+  margin: 0 0 40px;
+  font-size: 32px;
+  line-height: 1.2;
+  font-weight: 500;
+}
+
+.blloom-comfort-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.blloom-comfort-column {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.blloom-comfort-column h3 {
+  margin: 0;
+  font-size: 22px;
+  line-height: 1.3;
+  font-weight: 500;
+}
+
+.blloom-comfort-column p {
+  margin: -12px 0 0;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.blloom-comfort-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 14px;
+}
+
+@media (max-width: 768px) {
+  .blloom-comfort-section {
+    padding: 0 20px 64px;
+  }
+
+  .blloom-comfort-title {
+    font-size: 26px;
+    margin-bottom: 32px;
+  }
+
+  .blloom-comfort-grid {
+    grid-template-columns: 1fr;
+    gap: 56px;
+  }
+
+  .blloom-comfort-column {
+    gap: 24px;
+  }
+
+  .blloom-comfort-column h3 {
+    font-size: 20px;
+  }
+}
