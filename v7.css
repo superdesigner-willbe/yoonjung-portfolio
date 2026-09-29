@@ -27,3 +27,8 @@
 @media(max-width:700px){.waymo-comparison,.page-blloom .blloom-comfort-grid{grid-template-columns:1fr;gap:40px}.page-blloom .blloom-comfort-title{font-size:28px}.waymo-final-v7{gap:32px}}
 @media(min-width:701px){.page-blloom .blloom-comfort-grid{grid-template-rows:auto auto auto auto;row-gap:20px}.page-blloom .blloom-comfort-column{display:grid;grid-template-rows:subgrid;grid-row:span 4}}
 #waymo-insights .pilot-test-canvas>.f252{gap:22px!important}
+
+/* Keep the co-create collage inside three equally sized photo slots. */
+.page-blloom .iteration-slide .f1236{box-sizing:border-box;overflow:hidden}
+.page-blloom .iteration-slide .f1237{height:100%!important;min-height:0;aspect-ratio:auto!important;align-items:stretch!important}
+.page-blloom .iteration-slide .f1237>div{height:100%!important;aspect-ratio:auto!important;overflow:hidden!important;min-height:0}
