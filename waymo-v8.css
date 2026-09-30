@@ -28,3 +28,12 @@
 .page-waymo .reflection-title h3{font-size:18px}
 .page-waymo #waymo-overview [data-node-id="354:4964"]{font-size:18px;line-height:1.4}
 .page-waymo #waymo-overview [data-node-id="354:4964"] p+p{margin-top:12px}
+
+/* Multi-line copy must not inherit the exported zero line height. */
+.page-waymo .case-content p{line-height:1.4}
+.page-waymo .exact-canvas p{line-height:1.4!important}
+.page-waymo #waymo-hero .f195{container-type:inline-size;width:100%}
+@media(min-width:701px){.page-waymo #waymo-hero h1{font-size:4.7cqw!important;white-space:nowrap!important;line-height:1.25!important}}
+.page-waymo .v8-evidence-heading{display:flex;align-items:flex-start;gap:20px}
+.page-waymo .v8-evidence-number{display:flex;align-items:center;justify-content:center;flex:0 0 32px;width:32px;height:32px;border-radius:50%;background:#ccc;font-size:14px;line-height:1.4;color:#111}
+.page-waymo .v8-evidence-heading h3{flex:1;min-width:0}
