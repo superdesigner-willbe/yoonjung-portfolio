@@ -1,0 +1,30 @@
+/* Latest Waymo case study; scoped to this page and existing responsive shell. */
+.page-waymo .case-content{min-width:0}
+.page-waymo .case-content h2{font-size:36px;line-height:1.2;font-weight:600}
+.page-waymo .case-content h3{font-size:24px;line-height:1.4;font-weight:600}
+.page-waymo .waymo-affiliation{font-size:24px;line-height:1.4;color:#464646;white-space:normal}
+.page-waymo .v8-body{font-size:18px;line-height:1.4;color:#5a5a5a;width:100%;height:auto}
+.page-waymo .v8-paragraphs p+p{margin-top:16px}
+.page-waymo .v8-solution-image{width:100%;aspect-ratio:1473/827;position:relative;overflow:hidden}
+.page-waymo .v8-solution-image img{position:absolute;max-width:none;width:107.4%;height:113.66%;left:-3.67%;top:-4.72%}
+.page-waymo .v8-full-image{width:100%;height:auto;border-radius:20px}
+.page-waymo .v8-evidence-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:32px}
+.page-waymo .v8-evidence-card{display:flex;flex-direction:column;gap:12px;min-width:0;font-size:16px;line-height:1.6}
+.page-waymo .v8-evidence-card h3{font-size:18px}
+.page-waymo .v8-evidence-card img{width:100%;height:auto}
+.page-waymo .v8-response{margin-top:12px;font-weight:600}
+.page-waymo .v8-caption{font-size:12px;color:#797979}
+.page-waymo .v8-evaluation{display:flex;flex-direction:column;gap:40px}
+.page-waymo .v8-finding{display:flex;flex-direction:column;align-items:flex-start;gap:22px;width:100%;max-width:790.5px;margin-top:20px}
+.page-waymo .v8-finding img{width:100%;height:auto;margin-top:20px}
+.page-waymo .v8-finding-label{font-size:20px;line-height:1.4;border-radius:100px;padding:2px 10px;background:#6cffca;color:#5a5a5a}
+.page-waymo #waymo-hero .f201{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:24px;white-space:normal}
+.page-waymo #waymo-hero .f201>div{width:auto;min-width:0;white-space:normal}
+.page-waymo #waymo-hero .f201 p{white-space:normal}
+.page-waymo #waymo-prompt-ui [data-node-id="354:5249"]{height:auto}
+@media(max-width:700px){.page-waymo .v8-evidence-grid{grid-template-columns:1fr;gap:40px}.page-waymo .case-content h2{font-size:28px}.page-waymo .waymo-affiliation{font-size:18px}.page-waymo #waymo-hero .f201{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+.page-waymo .v8-finding{max-width:790.5px!important}
+.page-waymo .reflection-title h3{font-size:18px}
+.page-waymo #waymo-overview [data-node-id="354:4964"]{font-size:18px;line-height:1.4}
+.page-waymo #waymo-overview [data-node-id="354:4964"] p+p{margin-top:12px}
