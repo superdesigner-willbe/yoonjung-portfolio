@@ -37,3 +37,11 @@
 .page-waymo .v8-evidence-heading{display:flex;align-items:flex-start;gap:20px}
 .page-waymo .v8-evidence-number{display:flex;align-items:center;justify-content:center;flex:0 0 32px;width:32px;height:32px;border-radius:50%;background:#ccc;font-size:14px;line-height:1.4;color:#111}
 .page-waymo .v8-evidence-heading h3{flex:1;min-width:0}
+
+/* Shared rows align comparison media despite different copy lengths. */
+.page-waymo .comparison-after-image{aspect-ratio:427/235.795;object-fit:cover;object-position:center;height:auto;border-radius:3.482px}
+@media(min-width:701px){
+ .page-waymo .waymo-comparison{grid-template-rows:auto auto auto;row-gap:20px}
+ .page-waymo .waymo-comparison-column{display:grid;grid-template-rows:subgrid;grid-row:span 3;gap:20px;align-items:start}
+ .page-waymo .comparison-label{justify-self:start}
+}
