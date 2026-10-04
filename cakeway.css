@@ -47,3 +47,9 @@
 .page-home .cakeway-card{max-width:100%;--pressed-bg:rgba(255,175,177,.2);--pressed-title:#800027;--pressed-subtitle:#b50037;--pressed-caption:#eb5185}
 .page-cakeway #cakeway-overview>.cake-image{aspect-ratio:1135/665;object-fit:cover}
 .page-home .cakeway-card [data-name="Main"]>p{color:#797979}
+/* Keep the Solution label, copy and complete video within the viewport. */
+.page-cakeway .cake-solution{gap:20px}
+.page-cakeway .cake-solution-copy{display:flex;flex-direction:column;gap:16px}
+.page-cakeway .cake-solution-video{display:block;align-self:center;width:auto;max-width:100%;height:auto;max-height:var(--cake-video-height,50svh);aspect-ratio:1200/822;object-fit:contain;background:#ffebee;border-radius:12px}
+.page-cakeway #cakeway-problem .cake-two h3{font:500 18px/1.4 'Acumin Variable Concept',Arial,sans-serif}
+@media(max-width:700px){.page-cakeway .cake-solution{gap:16px}.page-cakeway .cake-solution-copy{gap:12px}.page-cakeway .cake-solution-copy h3{font-size:20px}.page-cakeway .cake-solution-copy>p{font-size:16px}}
