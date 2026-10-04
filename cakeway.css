@@ -53,3 +53,8 @@
 .page-cakeway .cake-solution-video{display:block;align-self:center;width:auto;max-width:100%;height:auto;max-height:var(--cake-video-height,50svh);aspect-ratio:1200/822;object-fit:contain;background:#ffebee;border-radius:12px}
 .page-cakeway #cakeway-problem .cake-two h3{font:500 18px/1.4 'Acumin Variable Concept',Arial,sans-serif}
 @media(max-width:700px){.page-cakeway .cake-solution{gap:16px}.page-cakeway .cake-solution-copy{gap:12px}.page-cakeway .cake-solution-copy h3{font-size:20px}.page-cakeway .cake-solution-copy>p{font-size:16px}}
+
+/* Scale the desktop headline to its own content column. */
+.page-cakeway #cakeway-overview>.cake-heading{container-type:inline-size}
+@media(min-width:701px){.page-cakeway #cakeway-overview h1{font-size:min(50px,4.5cqw);white-space:nowrap;line-height:1.2}}
+.page-cakeway .cake-solution-video{clip-path:inset(3px 0 0 0 round 12px)}
