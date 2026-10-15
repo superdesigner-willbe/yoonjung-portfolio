@@ -1,0 +1,10 @@
+/* Keep project identity colors independent of position. */
+.page-home #node-50_2116{--pressed-bg:rgba(255,175,177,.2);--pressed-title:#800027;--pressed-subtitle:#b50037;--pressed-caption:#eb5185}
+.page-home #node-51_3528,.page-home .project-card[href="/hyundai-ngv/"]{--pressed-bg:rgba(0,122,255,.15);--pressed-title:#003d72;--pressed-subtitle:#005cc8;--pressed-caption:#5eabff}
+.page-home .bollo-home-thumb{aspect-ratio:4/3;overflow:hidden;position:relative;border-radius:15px}
+.page-home .bollo-home-art{position:absolute;left:50%;top:0;transform:translateX(-50%);width:139.25926%;height:100.24691%;overflow:hidden}
+.page-home .bollo-home-art img{position:absolute;left:-61.42%;top:0;width:222.67%;height:100%;max-width:none}
+.page-home .home-credits{display:flex;flex-wrap:wrap;gap:12px 20px;align-items:center;font-size:14px;line-height:1.6;color:#5a5a5a}
+.page-home .home-credits>span{display:inline-flex;align-items:center;gap:2px}
+.page-home .home-credits img{width:18.578px;height:18.578px}
+.page-home .home-credits small{font-size:14px;color:#969696}
