@@ -8,3 +8,5 @@
 .page-home .home-credits>span{display:inline-flex;align-items:center;gap:2px}
 .page-home .home-credits img{width:18.578px;height:18.578px}
 .page-home .home-credits small{font-size:14px;color:#969696}
+
+.page-home .bollo-home-thumb > .bollo-home-reddot{position:absolute;right:5.55556%;bottom:3.70370%;width:20.37037%;height:15.55556%;object-fit:cover}
