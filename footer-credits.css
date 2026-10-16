@@ -2,3 +2,7 @@
 .site-footer .home-credits>span{display:inline-flex;align-items:center;gap:2px}
 .site-footer .home-credits img{width:18.578px;height:18.578px}
 .site-footer .home-credits small{font-size:14px;color:#969696}
+
+.site-footer .home-credits .footer-credit-text{font-size:16px;font-weight:500;line-height:1.6;background-image:linear-gradient(96.28922661850179deg,#ff68e2 0.14307%,#98d903 54.618%,#ff68e2 96.874%);background-clip:text;-webkit-background-clip:text;color:transparent;-webkit-text-fill-color:transparent}
+.site-footer .home-credits>span{min-width:0}
+.site-footer .home-credits img{flex-shrink:0}
