@@ -64,12 +64,12 @@
 @keyframes kf_0_55_opacity_0 { 0% { animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1); opacity: 1; } 30% { animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1); opacity: 0; } 60% { opacity: 1; } 100% { opacity: 1; } }
 .wm-motion [data-node-id="747:6415"]{animation: kf_0_56_opacity_0 2s linear; animation-iteration-count: infinite; }
 @keyframes kf_0_56_opacity_0 { 0% { opacity: 1; } 30% { animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1); opacity: 1; } 60% { opacity: 0; } 100% { opacity: 0; } }
-.wm-motion [data-node-id="747:6418"]{animation: kf_0_57_opacity_0 2s linear; animation-iteration-count: infinite; }
-@keyframes kf_0_57_opacity_0 { 0% { animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1); opacity: 1; } 30% { opacity: 0; } 100% { opacity: 0; } }
-.wm-motion [data-node-id="747:6419"]{animation: kf_0_58_opacity_0 2s linear; animation-iteration-count: infinite; }
-@keyframes kf_0_58_opacity_0 { 0% { opacity: 1; } 15% { animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1); opacity: 1; } 45% { opacity: 0; } 100% { opacity: 0; } }
-.wm-motion [data-node-id="747:6420"]{animation: kf_0_59_opacity_0 2s linear; animation-iteration-count: infinite; }
-@keyframes kf_0_59_opacity_0 { 0% { opacity: 1; } 30% { animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1); opacity: 1; } 60% { opacity: 0; } 100% { opacity: 0; } }
+.wm-motion [data-node-id="747:6418"]{animation: kf_0_57_opacity_0 1.2s linear; animation-iteration-count: infinite; }
+@keyframes kf_0_57_opacity_0 { 0% { animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1); opacity: 1; } 50% { opacity: 0; } 100% { opacity: 0; } }
+.wm-motion [data-node-id="747:6419"]{animation: kf_0_58_opacity_0 1.2s linear; animation-iteration-count: infinite; }
+@keyframes kf_0_58_opacity_0 { 0% { opacity: 1; } 25% { animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1); opacity: 1; } 75% { opacity: 0; } 100% { opacity: 0; } }
+.wm-motion [data-node-id="747:6420"]{animation: kf_0_59_opacity_0 1.2s linear; animation-iteration-count: infinite; }
+@keyframes kf_0_59_opacity_0 { 0% { opacity: 1; } 50% { animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1); opacity: 1; } 100% { opacity: 0; } }
 @media(prefers-reduced-motion:reduce){#waymo-prompt-ui .wm-motion *{animation:none!important;visibility:visible!important;opacity:1!important;stroke-dasharray:none!important;stroke-dashoffset:0!important}}
 
 /* Crisp separators remain visible when the fixed diagram scales down. */
