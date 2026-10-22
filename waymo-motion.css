@@ -1,0 +1,77 @@
+/* Waymo contextual callouts, Figma 354:5243. Independent timelines. */
+#waymo-prompt-ui .wm-viewport{width:100%;overflow:visible}
+#waymo-prompt-ui .wm-canvas{width:900px;transform-origin:top left;display:flex;flex-direction:column;gap:10px}
+#waymo-prompt-ui .wm-mode-label{font-size:16px;line-height:1.6!important;color:#5a5a5a;opacity:.8;margin:0}
+#waymo-prompt-ui .wm-board{box-sizing:border-box;width:898px;padding:20px;border:.5px solid #cacaca;border-radius:20px;display:flex;gap:9.56px;background:#fff}
+#waymo-prompt-ui .wm-dark{background:#f3f3f3;gap:9.789px}
+#waymo-prompt-ui .wm-overview{box-sizing:border-box;flex:0 0 279.299px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:23.07px;padding:14.726px 0;background:#f2f2f7;border-radius:7.854px}
+#waymo-prompt-ui .wm-dark .wm-overview{flex-basis:278.495px;height:303.457px;background:#252c57;gap:23.004px;padding:0;border-radius:7.831px}
+#waymo-prompt-ui .wm-icon-row{display:flex;gap:14.726px}
+#waymo-prompt-ui .wm-icon{display:block;position:relative;width:40.251px;height:40.251px;flex:none}
+#waymo-prompt-ui .wm-icon-row .wm-icon>img{position:absolute;left:-3.436px;top:-2.455px}
+#waymo-prompt-ui .wm-dark .wm-icon{width:40.135px;height:40.135px}
+#waymo-prompt-ui .wm-dark .wm-icon-row .wm-icon>img{left:0;top:0}
+#waymo-prompt-ui .wm-divider{width:100%;height:0;position:relative}
+#waymo-prompt-ui .wm-divider>img{position:absolute;top:-.25px;left:0}
+#waymo-prompt-ui .wm-palette{height:14.726px}
+#waymo-prompt-ui .wm-bubble{position:relative;flex:none}
+#waymo-prompt-ui .wm-union{position:absolute;left:-9.817px;top:-2.945px;max-width:none}
+#waymo-prompt-ui .wm-bubble-content{position:absolute;top:0;left:0;display:flex;align-items:center;gap:6.872px;padding:3.927px 11.781px 3.927px 3.927px;border-radius:23.561px;white-space:nowrap;font-family:'GT Walsheim Trial',sans-serif;font-size:17.671px;color:#4f4f4f}
+#waymo-prompt-ui .wm-bubble-content .wm-icon{filter:drop-shadow(0 .982px 1.718px rgba(79,79,79,.25))}
+#waymo-prompt-ui .wm-dark .wm-bubble-content{font-size:17.62px;color:#fff;gap:6.852px;padding:3.916px 11.747px 3.916px 3.916px}
+#waymo-prompt-ui .wm-dark .wm-bubble-content .wm-icon{filter:none}
+#waymo-prompt-ui .wm-cards{display:grid;grid-template-columns:repeat(2,279.79px);gap:9.817px}
+#waymo-prompt-ui .wm-card{box-sizing:border-box;height:147.258px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14.726px;padding:14.726px 0;background:#f2f2f7;border-radius:7.854px}
+#waymo-prompt-ui .wm-card-label{font-family:Pretendard,sans-serif;font-size:9.817px;line-height:1.45!important;text-align:center;color:#393939;opacity:.7;margin:0;width:100%}
+#waymo-prompt-ui .wm-dark .wm-cards{grid-template-columns:repeat(2,279.9635px);gap:9.789px}
+#waymo-prompt-ui .wm-dark .wm-card{height:146.9565px;background:#252c57;border-radius:7.831px;gap:14.683px}
+#waymo-prompt-ui .wm-dark .wm-card-label{font-size:9.789px;color:#e1e1e1;opacity:1}
+#waymo-prompt-ui .wm-car{width:55.726px;height:58.259px;position:relative;overflow:hidden;mix-blend-mode:multiply;margin-top:-9.817px}
+#waymo-prompt-ui .wm-car>img{position:absolute;height:173.91%;width:272.73%;max-width:none;left:-88.18%;top:-41.74%}
+#waymo-prompt-ui .wm-car-dark{width:55.797px;height:55.797px;mix-blend-mode:normal;margin-top:-7.831px}
+#waymo-prompt-ui .wm-car-dark>img{width:55.797px;height:55.797px;left:0;top:0}
+#waymo-prompt-ui .wm-overview>.wm-bubble .wm-icon{width:38.339px;height:38.339px}
+#waymo-prompt-ui .wm-overview>.wm-bubble .wm-icon>img{position:absolute;left:-3.27px;top:-2.34px}
+#waymo-prompt-ui .wm-dark .wm-overview>.wm-bubble .wm-icon{width:38.228px;height:38.228px}
+#waymo-prompt-ui .wm-dark .wm-overview>.wm-bubble .wm-icon>img{left:0;top:0}
+#waymo-prompt-ui .wm-motion{position:absolute;inset:0;pointer-events:none}
+#waymo-prompt-ui .wm-motion img{max-width:none}
+
+.wm-motion [data-node-id="744:3581"] path{ animation: kf_0_22_path-trim_0 2s linear; animation-iteration-count: infinite; }
+@keyframes kf_0_22_path-trim_0 { 0% { animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1); stroke-dasharray: 0 1; stroke-dashoffset: -1; visibility: hidden; } 50% { stroke-dasharray: 1 1; stroke-dashoffset: 0; visibility: visible; } 100% { stroke-dasharray: 1 1; stroke-dashoffset: 0; visibility: visible; } }
+.wm-motion [data-node-id="744:3583"]{animation: kf_0_24_opacity_0 2s linear; animation-iteration-count: infinite; }
+@keyframes kf_0_24_opacity_0 { 0% { opacity: 0; } 34.515% { animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1); opacity: 0; } 60% { opacity: 1; } 100% { opacity: 1; } }
+.wm-motion [data-node-id="744:6397"]{animation: kf_0_25_opacity_0 2s linear; animation-iteration-count: infinite; }
+@keyframes kf_0_25_opacity_0 { 0% { animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1); opacity: 1; } 30.11% { animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1); opacity: 0; } 60% { opacity: 0.7; } 100% { opacity: 0.7; } }
+.wm-motion [data-node-id="744:6395"]{animation: kf_0_26_opacity_0 2s linear; animation-iteration-count: infinite; }
+@keyframes kf_0_26_opacity_0 { 0% { opacity: 1; } 15% { animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1); opacity: 1; } 45% { opacity: 0; } 100% { opacity: 0; } }
+@property --rotate-transform { syntax: '<angle>'; initial-value: 0rad; inherits: false; }
+.wm-motion [data-node-id="744:4164"]{ transform: rotate(var(--rotate-transform, 0.524rad)); transform-origin: 50% 100%; animation: kf_0_27_rotate_0 2s linear; animation-iteration-count: infinite; }
+@keyframes kf_0_27_rotate_0 { 0% { animation-timing-function: ease-in-out; --rotate-transform: 0.524rad; } 50% { animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1); --rotate-transform: -0.524rad; } 100% { --rotate-transform: 0.524rad; } }
+.wm-motion [data-node-id="744:5271"]{animation: kf_0_29_opacity_0 1.2s linear; animation-iteration-count: infinite; }
+@keyframes kf_0_29_opacity_0 { 0% { animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1); opacity: 1; } 30% { opacity: 0; } 100% { opacity: 0; } }
+.wm-motion [data-node-id="744:5272"]{animation: kf_0_30_opacity_0 1.2s linear; animation-iteration-count: infinite; }
+@keyframes kf_0_30_opacity_0 { 0% { opacity: 1; } 15% { animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1); opacity: 1; } 44.728% { opacity: 0; } 100% { opacity: 0; } }
+.wm-motion [data-node-id="744:5273"]{animation: kf_0_31_opacity_0 1.2s linear; animation-iteration-count: infinite; }
+@keyframes kf_0_31_opacity_0 { 0% { opacity: 1; } 30% { animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1); opacity: 1; } 60% { opacity: 0; } 100% { opacity: 0; } }
+.wm-motion [data-node-id="747:6407"] path{ animation: kf_0_50_path-trim_0 2s linear; animation-iteration-count: infinite; }
+@keyframes kf_0_50_path-trim_0 { 0% { animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1); stroke-dasharray: 0 1; stroke-dashoffset: -1; visibility: hidden; } 50% { stroke-dasharray: 1 1; stroke-dashoffset: 0; visibility: visible; } 100% { stroke-dasharray: 1 1; stroke-dashoffset: 0; visibility: visible; } }
+.wm-motion [data-node-id="747:6409"]{animation: kf_0_52_opacity_0 2s linear; animation-iteration-count: infinite; }
+@keyframes kf_0_52_opacity_0 { 0% { opacity: 0; } 34.515% { animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1); opacity: 0; } 60% { opacity: 1; } 100% { opacity: 1; } }
+.wm-motion [data-node-id="747:6411"]{ transform: rotate(var(--rotate-transform, 0.524rad)); transform-origin: 50% 100%; animation: kf_0_53_rotate_0 2s linear; animation-iteration-count: infinite; }
+@keyframes kf_0_53_rotate_0 { 0% { animation-timing-function: ease-in-out; --rotate-transform: 0.524rad; } 50.183% { animation-timing-function: cubic-bezier(0.7, -0.4, 0.4, 1.4); --rotate-transform: -0.524rad; } 100% { --rotate-transform: 0.524rad; } }
+.wm-motion [data-node-id="747:6414"]{animation: kf_0_55_opacity_0 2s linear; animation-iteration-count: infinite; }
+@keyframes kf_0_55_opacity_0 { 0% { animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1); opacity: 1; } 30% { animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1); opacity: 0; } 60% { opacity: 1; } 100% { opacity: 1; } }
+.wm-motion [data-node-id="747:6415"]{animation: kf_0_56_opacity_0 2s linear; animation-iteration-count: infinite; }
+@keyframes kf_0_56_opacity_0 { 0% { opacity: 1; } 30% { animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1); opacity: 1; } 60% { opacity: 0; } 100% { opacity: 0; } }
+.wm-motion [data-node-id="747:6418"]{animation: kf_0_57_opacity_0 2s linear; animation-iteration-count: infinite; }
+@keyframes kf_0_57_opacity_0 { 0% { animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1); opacity: 1; } 30% { opacity: 0; } 100% { opacity: 0; } }
+.wm-motion [data-node-id="747:6419"]{animation: kf_0_58_opacity_0 2s linear; animation-iteration-count: infinite; }
+@keyframes kf_0_58_opacity_0 { 0% { opacity: 1; } 15% { animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1); opacity: 1; } 45% { opacity: 0; } 100% { opacity: 0; } }
+.wm-motion [data-node-id="747:6420"]{animation: kf_0_59_opacity_0 2s linear; animation-iteration-count: infinite; }
+@keyframes kf_0_59_opacity_0 { 0% { opacity: 1; } 30% { animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1); opacity: 1; } 60% { opacity: 0; } 100% { opacity: 0; } }
+@media(prefers-reduced-motion:reduce){#waymo-prompt-ui .wm-motion *{animation:none!important;visibility:visible!important;opacity:1!important;stroke-dasharray:none!important;stroke-dashoffset:0!important}}
+
+/* Crisp separators remain visible when the fixed diagram scales down. */
+#waymo-prompt-ui .wm-divider::after{content:"";position:absolute;inset:0 0 auto;height:1px;background:rgba(57,57,57,.12)}
+#waymo-prompt-ui .wm-dark .wm-divider::after{background:rgba(255,255,255,.3)}

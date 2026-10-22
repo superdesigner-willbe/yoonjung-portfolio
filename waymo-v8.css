@@ -45,3 +45,4 @@
  .page-waymo .waymo-comparison-column{display:grid;grid-template-rows:subgrid;grid-row:span 3;gap:20px;align-items:start}
  .page-waymo .comparison-label{justify-self:start}
 }
+
