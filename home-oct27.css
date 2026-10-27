@@ -28,6 +28,7 @@
 .page-home .home-v2 [data-node-id="421:7584"] p{font-size:inherit;line-height:inherit;white-space:normal}
 .page-home .home-v2 [data-node-id="354:3297"]{align-items:flex-start;gap:10px;flex-shrink:0}
 .page-home .home-v2 [data-node-id="354:3297"] p{font-size:16px;line-height:1.35;text-align:left}
+.page-home .home-v2 [data-node-id="354:3299"]>.layout-row{padding:0}
 .page-home .home-v2 [data-node-id="421:7462"]{display:none}
 .page-home .home-projects{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:30px 32px;width:100%;padding:0 120px}
 .page-home .home-projects .project-card{padding:13px;border-radius:22.75px;gap:13px;width:100%;max-width:100%;min-width:0;justify-content:flex-start}
