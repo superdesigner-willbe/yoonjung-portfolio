@@ -1,6 +1,6 @@
 // Autoplay Bollo demonstrations only while visible. Native controls stay available.
 (() => {
-  const videos = [...document.querySelectorAll('#bollo-solution video, #bollo-practice video, #bollo-data video, #bollo-health video')];
+  const videos = [...document.querySelectorAll('.bollo-oct29 .bollo-content video, #bollo-solution video, #bollo-practice video, #bollo-data video, #bollo-health video')];
   const visible = new Set();
   const update = video => {
     if (!visible.has(video) || document.hidden) { video.pause(); return; }
