@@ -98,3 +98,11 @@
  .bollo-reflection>div>div{width:100%!important;max-width:100%!important}
  .bollo-reflection>div:first-child>div:last-child{font-size:28px!important}
 }
+
+/* Restore the exported numerals and the research-to-focus connector. */
+.bollo-content .reflection-number{display:inline-flex;align-items:center;justify-content:center;width:30px;height:30px;flex:0 0 30px;border-radius:50%;background:#d1ff65;color:#000;font:600 18px/1 'Acumin Variable Concept',Arial,sans-serif}
+.research-direction-flow{display:flex;flex-direction:column;width:100%}
+.research-connector{align-self:center;width:5px;height:125px;flex:none;background:linear-gradient(180deg,#fff 0%,#d1ff65 100%)}
+.research-direction-flow .focus-groups{margin-top:0}
+.bollo-content{container-type:inline-size}
+@media(min-width:701px){.bollo-content h1{font-size:clamp(22px,4.1cqw,38px)!important;white-space:nowrap}}
