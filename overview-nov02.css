@@ -1,0 +1,6 @@
+/* Latest Figma overview structure; limited to Blloom and Waymo. */
+:is(.page-blloom,.page-waymo) .overview-facts{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:40px 60px;width:100%;min-width:0}
+:is(.page-blloom,.page-waymo) .overview-fact,:is(.page-blloom,.page-waymo) .overview-answer{display:flex;flex-direction:column;gap:10px;min-width:0;width:100%}
+:is(.page-blloom,.page-waymo) .overview-fact-label{font-family:'Acumin Variable Concept',Arial,sans-serif;font-size:18px;font-weight:500;line-height:1.4;text-transform:uppercase;color:#797979;white-space:normal}
+:is(.page-blloom,.page-waymo) .overview-fact-copy{font-family:'Acumin Variable Concept',Arial,sans-serif;font-size:18px;font-weight:500;line-height:1.35;color:#464646;white-space:normal;overflow-wrap:break-word}
+@media(max-width:600px){:is(.page-blloom,.page-waymo) .overview-facts{grid-template-columns:1fr;gap:28px}}
