@@ -1,1 +1,5 @@
 .home-thumb-donga{background:#002e6b}.home-thumb-donga>img{position:absolute;width:142.45014%;height:106.837607cqw;left:-41.73789%;top:-38.888889cqw;object-fit:cover}
+
+/* Bollo keeps its Figma lime hover state regardless of homepage order. */
+.page-home .project-card[href="/bollo/"]{--pressed-bg:rgba(197,255,64,.2);--pressed-title:#314600;--pressed-subtitle:#3e5900;--pressed-caption:#86c000}
+.page-home .project-card[href="/bollo/"]:is(:hover,:focus-visible,:active) [data-name="badge area"] p,.page-home .project-card[href="/bollo/"]:is(:hover,:focus-visible,:active) [data-name="Main"]>p{font-weight:500}
