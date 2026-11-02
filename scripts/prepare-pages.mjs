@@ -13,7 +13,7 @@ function rewrite(dir) {
     if (entry.isDirectory()) rewrite(file);
     else if (/\.(html|css|js)$/.test(entry.name) && base) {
       const source = fs.readFileSync(file, 'utf8');
-      fs.writeFileSync(file, source.replace(/(href=["'])\/(?=["'])/g, '$1' + base + '/').replace(/(["'`(])\/(?=(?:assets|videos|bollo|blloom|waymo|play|about|hyundai-ngv)\/|[A-Za-z0-9_-]+\.(?:css|js)(?:[?"'`)]))/g, '$1' + base + '/'));
+      fs.writeFileSync(file, source.replace(/(href=["'])\/(?=["'])/g, '$1' + base + '/').replace(/(["'`(])\/(?=(?:assets|videos|bollo|blloom|waymo|donga|cakeway|play|about|hyundai-ngv)\/|[A-Za-z0-9_-]+\.(?:css|js)(?:[?"'`)]))/g, '$1' + base + '/'));
     }
   }
 }
