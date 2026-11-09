@@ -1,8 +1,5 @@
 /* The generated typography classes use !important, so scope overrides to these cards. */
 .page-home .home-projects .project-card{
-  --card-padding:13px;
-  --card-radius:22.75px;
-  --card-width:377px;
   --caption-color:#a6a6a6;
   --title-color:#000;
   --subtitle-color:#797979;
@@ -11,11 +8,11 @@
   --title-weight:500;
   --subtitle-weight:400;
   --subtitle-size:16px;
-  padding:var(--card-padding)!important;
-  border-radius:var(--card-radius)!important;
+  padding:13px!important;
+  border-radius:22.75px!important;
   gap:13px!important;
   width:100%;
-  max-width:var(--card-width);
+  max-width:377px;
   min-width:0;
   justify-self:center;
   justify-content:flex-start!important;
@@ -60,8 +57,8 @@
   --title-color:var(--pressed-title);
   --subtitle-color:var(--pressed-subtitle);
   --tag-weight:var(--pressed-tag-weight,500);
-  --title-weight:var(--pressed-title-weight,600);
-  --subtitle-weight:var(--pressed-subtitle-weight,500);
+  --title-weight:600;
+  --subtitle-weight:500;
 }
 .page-home .home-projects .project-card:hover img{filter:none}
 
@@ -84,9 +81,9 @@
   --pressed-bg:rgba(255,175.28,176.61,.2);--pressed-title:#640021;--pressed-subtitle:#9a0033;--pressed-caption:#eb5185;
 }
 .page-home .home-projects .donga-card{
-  --card-padding:19.5px;--card-radius:29.25px;--card-width:390px;--subtitle-size:16.9px;
-  --pressed-bg:#e8fffe;--pressed-title:#238785;--pressed-subtitle:#156c6a;--pressed-caption:#28aaa8;
-  --pressed-tag-weight:400;--pressed-title-weight:500;--pressed-subtitle-weight:400;
+  align-self:start;
+  --subtitle-size:16.9px;
+  --pressed-bg:rgba(106.59,255,250.05,.15);--pressed-title:#00514f;--pressed-subtitle:#156c6a;--pressed-caption:#28aaa8;
 }
 .home-thumb-donga{background:#002e6b}
 .home-thumb-donga>img{width:142.45014%;height:106.837607cqw;left:-41.73789%;top:-38.888889cqw;object-fit:cover}

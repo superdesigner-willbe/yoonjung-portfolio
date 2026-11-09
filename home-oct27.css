@@ -31,7 +31,7 @@
 .page-home .home-v2 [data-node-id="354:3299"]{align-items:flex-end}
 .page-home .home-v2 [data-node-id="354:3299"]>.layout-row{padding:0}
 .page-home .home-v2 [data-node-id="421:7462"]{display:none}
-.page-home .home-projects{display:grid;grid-template-columns:minmax(0,377fr) minmax(0,377fr) minmax(0,390fr);gap:30px 28px;width:100%;padding:0 120px}
+.page-home .home-projects{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:30px 28px;width:100%;padding:0 120px}
 .page-home .home-v2 .site-footer{max-width:1440px;padding:30px 120px}
 .page-home .home-credits{flex-direction:row;align-items:center;gap:20px;flex-wrap:wrap}
 .page-home .footer-credit-text{line-height:1.35}
