@@ -1,5 +1,92 @@
-.home-thumb-donga{background:#002e6b}.home-thumb-donga>img{position:absolute;width:142.45014%;height:106.837607cqw;left:-41.73789%;top:-38.888889cqw;object-fit:cover}
+/* The generated typography classes use !important, so scope overrides to these cards. */
+.page-home .home-projects .project-card{
+  --card-padding:13px;
+  --card-radius:22.75px;
+  --card-width:377px;
+  --caption-color:#a6a6a6;
+  --title-color:#000;
+  --subtitle-color:#797979;
+  --tag-weight:400;
+  --separator-weight:700;
+  --title-weight:500;
+  --subtitle-weight:400;
+  --subtitle-size:16px;
+  padding:var(--card-padding)!important;
+  border-radius:var(--card-radius)!important;
+  gap:13px!important;
+  width:100%;
+  max-width:var(--card-width);
+  min-width:0;
+  justify-self:center;
+  justify-content:flex-start!important;
+}
+.page-home .home-projects .project-caption{width:100%!important;max-width:331.5px;gap:13px!important}
+.page-home .home-projects [data-name="badge area"]{
+  flex-wrap:wrap!important;
+  gap:0 5.2px!important;
+  font-size:13px!important;
+  line-height:1.3!important;
+  white-space:normal!important;
+  max-width:100%;
+}
+.page-home .home-projects .project-caption p,
+.page-home .home-projects .project-caption h2{
+  margin:0;
+  letter-spacing:normal;
+  font-family:'Acumin Variable Concept',Arial,sans-serif!important;
+}
+.page-home .home-projects [data-name="badge area"] p{
+  font-size:inherit!important;
+  line-height:inherit!important;
+  font-weight:var(--tag-weight)!important;
+  color:var(--caption-color)!important;
+}
+.page-home .home-projects [data-name="badge area"] .f43{font-weight:var(--separator-weight)!important}
+.page-home .home-projects [data-name="Main"]{gap:1.3px!important}
+.page-home .home-projects h2{
+  font-size:26px!important;
+  line-height:1.3!important;
+  font-weight:var(--title-weight)!important;
+  color:var(--title-color)!important;
+}
+.page-home .home-projects [data-name="Main"]>p{
+  font-size:var(--subtitle-size)!important;
+  line-height:1.3!important;
+  font-weight:var(--subtitle-weight)!important;
+  color:var(--subtitle-color)!important;
+}
+.page-home .home-projects .project-card:is(:hover,:focus-visible,:active){
+  --caption-color:var(--pressed-caption);
+  --title-color:var(--pressed-title);
+  --subtitle-color:var(--pressed-subtitle);
+  --tag-weight:var(--pressed-tag-weight,500);
+  --title-weight:var(--pressed-title-weight,600);
+  --subtitle-weight:var(--pressed-subtitle-weight,500);
+}
+.page-home .home-projects .project-card:hover img{filter:none}
 
-/* Bollo keeps its Figma lime hover state regardless of homepage order. */
-.page-home .project-card[href="/bollo/"]{--pressed-bg:rgba(197,255,64,.2);--pressed-title:#314600;--pressed-subtitle:#3e5900;--pressed-caption:#86c000}
-.page-home .project-card[href="/bollo/"]:is(:hover,:focus-visible,:active) [data-name="badge area"] p,.page-home .project-card[href="/bollo/"]:is(:hover,:focus-visible,:active) [data-name="Main"]>p{font-weight:500}
+.page-home .home-projects .cakeway-card{--pressed-tag-weight:400}
+.page-home .home-projects [href="/bollo/"]{
+  --pressed-bg:rgba(197,255,64,.2);--pressed-title:#314600;--pressed-subtitle:#3e5900;--pressed-caption:#86c000;
+}
+.page-home .home-projects [href="/waymo/"]{
+  --pressed-bg:rgba(0,122,255,.15);--pressed-title:#003166;--pressed-subtitle:#005bbe;--pressed-caption:#5eabff;
+}
+.page-home .home-projects [href="/waymo/"]:is(:hover,:focus-visible,:active){--separator-weight:500}
+.page-home .home-projects [href="/hyundai-ngv/"]{
+  --pressed-bg:rgba(0,55.25,255,.15);--pressed-title:#000f66;--pressed-subtitle:#0042be;--pressed-caption:#5e71ff;
+}
+.page-home .home-projects [href="/hyundai-ngv/"] [data-name="badge area"] .f43{color:#a6a6a6!important}
+.page-home .home-projects [href="/hyundai-ngv/"]:is(:hover,:focus-visible,:active) .home-thumb-hyundai>img{
+  left:25.356125%;top:15.384615cqw;
+}
+.page-home .home-projects [href="/blloom/"]{
+  --pressed-bg:rgba(255,175.28,176.61,.2);--pressed-title:#640021;--pressed-subtitle:#9a0033;--pressed-caption:#eb5185;
+}
+.page-home .home-projects .donga-card{
+  --card-padding:19.5px;--card-radius:29.25px;--card-width:390px;--subtitle-size:16.9px;
+  --pressed-bg:#e8fffe;--pressed-title:#238785;--pressed-subtitle:#156c6a;--pressed-caption:#28aaa8;
+  --pressed-tag-weight:400;--pressed-title-weight:500;--pressed-subtitle-weight:400;
+}
+.home-thumb-donga{background:#002e6b}
+.home-thumb-donga>img{width:142.45014%;height:106.837607cqw;left:-41.73789%;top:-38.888889cqw;object-fit:cover}
