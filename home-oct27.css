@@ -31,6 +31,10 @@
 .page-home .home-v2 [data-node-id="354:3295"]{font-size:40px;letter-spacing:.8px;line-height:normal}
 .page-home .home-v2 [data-node-id="421:7577"],.page-home .home-v2 [data-node-id="421:7584"]{font-size:22px;line-height:normal;width:auto;max-width:100%}
 .page-home .home-v2 [data-node-id="421:7584"] p{font-size:inherit;line-height:inherit;white-space:normal}
+@media(min-width:701px){
+ .page-home .home-v2 [data-node-id="354:3294"]{container-type:inline-size}
+ .home-education-degree{font-size:clamp(16px,2.3cqi,22px)}
+}
 .page-home .home-v2 [data-node-id="354:3297"]{align-items:flex-end;gap:10px;flex-shrink:0}
 .page-home .home-v2 [data-node-id="354:3297"] p{font-size:16px;line-height:1.35;text-align:right}
 .page-home .home-v2 [data-node-id="354:3299"]{align-items:flex-end}
