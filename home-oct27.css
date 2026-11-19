@@ -20,9 +20,10 @@
  width:9.40171cqw;
  height:9.40171cqw;
  border-radius:.74644cqw;
- background:#fff;
- object-fit:contain;
+ object-fit:fill;
 }
+.home-blloom-awards img:first-child{width:9.25356cqw;height:9.25356cqw}
+.home-blloom-awards img:last-child{background:#fff;mix-blend-mode:hard-light}
 .page-home .home-v2>[data-node-id="354:3290"]{gap:40px}
 .page-home .home-v2 [data-node-id="421:7487"]{gap:20px;min-height:0}
 .page-home .home-v2 [data-node-id="354:3292"]{padding:30px 120px;flex:0 0 auto;align-items:flex-start}
